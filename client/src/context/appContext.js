@@ -1,4 +1,4 @@
-import React, { useState, useReducer, useContext } from 'react';
+import React, { useContext, useReducer } from 'react';
 import { CLEAR_ALERT, DISPLAY_ALERT } from './actions';
 import reducer from './reducer';
 
